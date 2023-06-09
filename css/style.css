@@ -1,0 +1,201 @@
+html, body {
+    width: 95%;
+    margin: 0 auto;   
+    height: 100vh;  
+    
+}
+
+
+header{
+    position: relative;
+    z-index: 100;
+    
+}
+
+#contenedor-cabecera {    
+    background: rgb(59, 59, 209);    
+    margin: 0 auto;
+    display: flex;
+    max-height: 150px;
+    align-items: center;
+    padding: 1.0em;
+    padding-left: 0.5em;
+    margin-top: 5vh;
+    
+}
+
+
+#contenedor-foto{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+#contenedor-titulos{
+    margin: 0 auto;
+    height: 60%;
+    padding: 0;
+    word-break: break-all;
+    
+}
+
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    font-size: 2em;
+    
+    
+}   
+   
+h2{
+    font-size: 1.5em;
+}
+
+h4{
+    color: rgb(30, 30, 209);
+}
+
+p{
+    text-align: justify;
+    word-break: break-all;        
+}
+
+#principal{
+    margin-left: calc(30vw + 5vw);
+    text-align: start;
+    padding-top: 0.6em;
+    padding-left: 2em;
+ 
+}
+
+#principal p, h3, h4{
+    line-height: 1;
+    padding-right: 2em;
+    word-break: break-all;
+}
+
+#principal li{
+    list-style: disc;
+}
+
+#lateral{
+    background: rgb(196, 201, 214);
+    width: 30vw;
+    padding-bottom: 100vh;  
+    top: 0;    
+    margin-left: 5vw;    
+    display: block;
+    position: absolute;
+        
+}
+
+#sobre-mi{  
+    width: 100%;    
+    height: fit-content;    
+    padding-top: 2em;
+    text-align: center;    
+    display: inline-block;   
+    margin-top: calc(150px + 5vh);
+   
+}
+
+#sobre-mi p{
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 2;
+}
+
+#contacto{    
+    width: 100%;
+    height: fit-content;      
+    text-align: center; 
+    display: inline-block;
+     
+}
+
+#contacto ul {
+    padding-left: 2em;
+}
+
+#informacion{   
+    width: 100%;      
+    text-align: center; 
+    display: inline-block;   
+    
+}
+
+
+
+#informacion li{    
+    list-style: disc;
+    
+}
+
+ul{  
+    justify-content: left;      
+    padding-right: 2em;
+    padding-left: 3em;   
+}
+
+li{
+    list-style: none;
+    text-align: left;
+    line-height: 2;
+    width: 100%;    
+    word-break: break-all;
+     
+            
+}
+
+
+
+.iconos{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+       
+}
+
+
+
+
+
+@media(max-width: 576px){ 
+     
+    h1{
+        font-size: 1.3em;       
+        word-break: break-all;
+    }          
+    h2{
+        font-size: 1.1em;
+        word-break: break-all;
+    }
+    h3{
+        font-size: 1em;
+        padding-left: 1.5em;
+    }
+
+   
+ 
+
+    p{
+        font-size: 0.8em;                
+    }
+
+
+
+    ul{  
+        padding-left: 2em;
+        padding-right: 1em;
+        
+    }
+
+    li{
+       font-size: 0.8em; 
+    }
+
+    
+}
